@@ -36,4 +36,4 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-ssh-keys/id_ed25519
+ssh-keys
