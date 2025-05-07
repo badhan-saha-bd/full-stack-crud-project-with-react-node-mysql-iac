@@ -24,3 +24,33 @@ Naming convention for SSH keys:
 🔑 Public Key: id_ed25519.pub
 
 🔒 Private Key: id_ed25519
+
+## 🚀 Usage
+
+Follow these steps to deploy the infrastructure:
+
+### 1. Clone the terraform repository
+
+```bash
+git clone https://github.com/your-org/full-stack-crud-project-with-react-node-mysql-iac.git
+cd full-stack-crud-project-with-react-node-mysql-iac
+```
+
+### 2. Prepare the configuration
+
+- Update the `profile` value in the `provider` block inside `provider.tf`
+- Place your generated SSH key pairs into the `ssh-keys/` directory
+
+### 3. Initialize the project
+
+```bash
+terraform init
+```
+
+### 4. Apply the configuration
+
+```bash
+terraform apply
+```
+
+> ✅ Confirm the apply step when prompted to create the resources.
