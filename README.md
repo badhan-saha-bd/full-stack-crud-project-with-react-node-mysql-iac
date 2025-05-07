@@ -54,3 +54,11 @@ terraform apply
 ```
 
 > ✅ Confirm the apply step when prompted to create the resources.
+
+### 🌐 Access the Application
+
+Once the infrastructure is deployed, you can access the application using the **public IP address** of the EC2 instance on **port 5000**:
+
+```
+http://<EC2_PUBLIC_IP>:5000
+```
